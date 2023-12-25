@@ -19,7 +19,7 @@ export function randomColorWithOpacity(opacity) {
   const randomHex = Math.floor(Math.random() * 16777215)
     .toString(16)
     .padStart(6, '0');
-  const alpha = Math.min(Math.max(opacity || 1, 0), 1); // Ensure alpha is between 0 and 1
+  const alpha = Math.min(Math.max(opacity || 1, 0), 1);
   return `rgba(${parseInt(randomHex.slice(0, 2), 16)}, ${parseInt(
     randomHex.slice(2, 4),
     16,
