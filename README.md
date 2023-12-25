@@ -84,7 +84,7 @@ Check it out here:
 
 - [Demo Video](https://www.loom.com/share/b85009655a8647edba95849799be8f28?sid=7d0ab6dc-fbff-458b-bbfe-543b6bf596bc)
 
-# Functions/Logic:
+# Functions/Logic
 
 - handleMapPress(): Handles map press events and adds points to the current polygon when in drawing mode.
 
@@ -96,10 +96,10 @@ Check it out here:
 
 - randomColorWithOpacity(opacity): Generates hex fill color for each distinct polygon.
 
-# Map API:
+# Map API
 
 - Google Maps SDK for Android API was used to render the map.
 
-# Summary:
+# Summary
 
 - Overall, the code provides a user interface to draw polygons on a map using React Native Maps. It allows users to enter a drawing mode, add points to create polygons, erase points or entire polygons, and access additional information via a modal.
