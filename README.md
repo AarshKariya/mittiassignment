@@ -94,6 +94,8 @@ Check it out here:
 
 - toggleDrawingMode(): Toggles the drawing mode on/off and manages the addition of completed polygons to the 'polygons' state.
 
+- randomColorWithOpacity(opacity): Generates hex fill color for each distinct polygon.
+
 # Map API:
 
 - Google Maps SDK for Android API was used to render the map.
