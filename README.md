@@ -2,7 +2,7 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
@@ -77,3 +77,27 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+# Demo Video of the App
+
+Check it out here:
+
+- [Demo Video](https://www.loom.com/share/b85009655a8647edba95849799be8f28?sid=7d0ab6dc-fbff-458b-bbfe-543b6bf596bc)
+
+# Functions/Logic:
+
+- handleMapPress(): Handles map press events and adds points to the current polygon when in drawing mode.
+
+- eraseLastPoint(): Removes the last point from the current polygon if available.
+
+- eraseWholePolygon(): Removes the whole polygon.
+
+- toggleDrawingMode(): Toggles the drawing mode on/off and manages the addition of completed polygons to the 'polygons' state.
+
+# Map API:
+
+- Google Maps SDK for Android API was used to render the map.
+
+# Summary:
+
+- Overall, the code provides a user interface to draw polygons on a map using React Native Maps. It allows users to enter a drawing mode, add points to create polygons, erase points or entire polygons, and access additional information via a modal.
