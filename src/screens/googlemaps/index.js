@@ -4,7 +4,7 @@ import MapView, {PROVIDER_GOOGLE, Polygon} from 'react-native-maps';
 import InfoModal from '../../components/InfoModal/InfoModal';
 import {BlrCoords, randomColorWithOpacity} from '../../helpers/mapsHelpers';
 
-export default function GoogleMapsScreen() {
+const GoogleMapsScreen = () => {
   const [drawingMode, setDrawingMode] = useState(false);
   const [polygons, setPolygons] = useState([]);
   const [currentPolygon, setCurrentPolygon] = useState({points: [], color: ''});
@@ -120,7 +120,9 @@ export default function GoogleMapsScreen() {
       </View>
     </View>
   );
-}
+};
+
+export default GoogleMapsScreen;
 
 const styles = StyleSheet.create({
   container: {
@@ -139,7 +141,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 5,
     borderRadius: 4,
     flex: 1,
-    bottom: 20,
+    bottom: 4,
   },
   buttonText: {
     color: '#FFF',
